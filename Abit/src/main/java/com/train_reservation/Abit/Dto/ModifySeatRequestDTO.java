@@ -6,7 +6,7 @@ import lombok.Data;
 public class ModifySeatRequestDTO {
     private String sectionname;
     private int newSeatNumber;
-    // Additional fields as needed
+    
 	public String getSection() {
 		return sectionname;
 	}
