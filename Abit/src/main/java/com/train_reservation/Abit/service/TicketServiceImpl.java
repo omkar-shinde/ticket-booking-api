@@ -84,27 +84,7 @@ public class TicketServiceImpl implements TicketService {
         }
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+          
     @Override
     @Transactional
     public ResponseEntity<String> modifyUserSeat(Long userId, int newSeatNumber) {
